@@ -1,0 +1,39 @@
+.main_home {
+}
+.main_home .main_hero {
+  position: relative;
+  min-height: 670px;
+  background: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main_home .main_hero .overlay {
+  background: linear-gradient(
+    rgba(25, 42, 83, 0.9),
+    rgba(25, 42, 83, 0.3),
+    rgba(25, 42, 83, 0.9)
+  );
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.main_home .main_hero .curve {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(10px);
+}
+
+.main_home .main_hero .curve svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
