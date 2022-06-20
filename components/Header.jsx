@@ -4,7 +4,7 @@ const header = () => {
   return (
     <div className="header_main">
       <Container fluid>
-        <Row className="d-flex justify-content-between align-items-center py-3">
+        <Row className="d-flex justify-content-between align-items-center py-3 px-2">
           {/* left header starts*/}
           <Col>
             <div className="brand">
